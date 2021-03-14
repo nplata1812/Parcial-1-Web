@@ -1,0 +1,384 @@
+html {
+  background: #e5e5e5;
+}
+
+#logo {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 100px;
+  top: 7px;
+}
+.navbar {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: -1px;
+
+  background: linear-gradient(
+    270deg,
+    #745ece 0%,
+    rgba(105, 72, 237, 0.41) 47.4%,
+    #5e63c8 82.29%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#searchBar {
+  position: absolute;
+  width: 892px;
+  height: 47px;
+  left: 448px;
+  top: 17px;
+
+  background: #ffffff;
+}
+#searchButton {
+  position: absolute;
+  width: 56px;
+  height: 47px;
+  left: 1284px;
+  top: 17px;
+
+  background: #e5e5e5;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+}
+#fav {
+  position: absolute;
+  width: 44px;
+  height: 40px;
+  left: 1375px;
+  top: 17px;
+}
+.info {
+  position: absolute;
+  width: 1240px;
+  height: 221px;
+  left: 100px;
+  top: 159px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.nombreProducto {
+  position: absolute;
+  width: 500px;
+  height: 35px;
+  left: 348px;
+  top: 112px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.ciudad {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 1011px;
+  top: 30px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.precio {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 348px;
+  top: 30px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.detalle {
+  position: absolute;
+  width: 1240px;
+  height: 1200px;
+  left: 100px;
+  top: 158px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.imgDetalle {
+  position: absolute;
+  width: 563px;
+  height: 520px;
+  left: 50px;
+  top: 54px;
+  border-radius: 15px;
+}
+.tituloProd {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  left: 50px;
+  top: 597px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
+.descripcion {
+  position: absolute;
+  width: 828px;
+  height: 170px;
+  left: 50px;
+  top: 651px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  color: #b8acac;
+}
+
+.usado {
+  position: absolute;
+  width: 312px;
+  height: 35px;
+  left: 878px;
+  top: 54px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.tituloDetalle {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  left: 878px;
+  top: 120px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.precioDetalle {
+  position: absolute;
+  width: 312px;
+  height: 33px;
+  left: 878px;
+  top: 260px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.comprar {
+  position: absolute;
+  width: 312px;
+  height: 51px;
+  left: 878px;
+  top: 298px;
+  background: #c968cb;
+  border-radius: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+.favoritoBut {
+  position: absolute;
+  width: 312px;
+  height: 51px;
+  left: 878px;
+  top: 360px;
+  background: #8c86d7;
+  border-radius: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bread {
+  position: absolute;
+  width: 600px;
+  height: 32px;
+  left: 60px;
+  top: -50px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.67);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.breadcrumb-dot .breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+
+  color: black;
+}
+.modal {
+  position: absolute;
+  width: 578px;
+  height: 364px;
+  left: 486px;
+  top: 359px;
+
+  background: #ffffff;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+}
+.modal-backdrop {
+  background-color: transparent;
+}
+.modal-content {
+  border: 0px;
+}
+.tituloModal {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  left: 140px;
+  top: 114px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+.anuncioModal {
+  position: absolute;
+  width: 312px;
+  height: 51px;
+  left: 140px;
+  top: 250px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+#botonModal {
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  left: 400px;
+  top: 280px;
+
+  background: #8c86d7;
+  border-radius: 20px;
+}
+
+.favoritoTitulo {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  left: 100px;
+  top: 104px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+}
+.headerFavoritos {
+  position: absolute;
+  width: 1240px;
+  height: 89px;
+  left: 100px;
+  top: 163px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+.cajitaCheck {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 40px;
+  top: 30px;
+}
+.cajitaCheck2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 40px;
+  top: 100px;
+}
+.VerDetalles {
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  left: 966px;
+  top: 80px;
+  background: #c968cb;
+  border-radius: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.eliminar {
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  left: 100px;
+  top: 15px;
+  background: #e1677d;
+  border-radius: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
